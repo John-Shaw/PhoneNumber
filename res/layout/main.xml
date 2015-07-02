@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enters"
+            android:id="@+id/enter" android:autoText="true" android:textSize="20sp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText_phone_input" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+            android:hint="@string/input_hint"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_search"
+            android:id="@+id/button_search" android:layout_gravity="right" android:layout_marginRight="20dp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:id="@+id/linearLayout_phoneInfo" android:layout_marginTop="20dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_result"
+                android:id="@+id/textView_result" android:textSize="20sp"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_main_operator" android:contentDescription="operator" android:src="@drawable/icon"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_area"
+                android:id="@+id/textView_area" android:textSize="20sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_areaCode"
+                android:id="@+id/textView_areaCode" android:textSize="20sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_postCode"
+                android:id="@+id/textView_postCode" android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>
+

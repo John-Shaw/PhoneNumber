@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机号查询</string>
+    <string name="enters">请输入手机号:</string>
+    <string name="button_search">查询</string>
+    <string name="textView_result">查询结果</string>
+    <string name="textView_area">地区：</string>
+    <string name="textView_areaCode">区号：</string>
+    <string name="textView_postCode">邮编</string>
+    <string name="textView_operator_name">公司名称</string>
+    <string name="textView_operator_intro">公司介绍</string>
+
+    <string name="operator">公司简介</string>
+    <string name="about">关于</string>
+    <string name="ok">确定</string>
+    <string name="about_message">手机号归属地查询\n版本：1.0\n\n邵建勇\nY12112127\n\n常熟理工</string>
+    <string name="input_hint">请输入手机号码</string>
+
+
+</resources>
